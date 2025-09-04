@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5ebd7;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #ff6600;
+}
+h2 {
+    color: #ff6600;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ff6600;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.card {
+    background-color: #f5ebd7;
+    border: 2px solid #ffcc00;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card img {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 10px;
+}
+iframe {
+    width: 100%;
+    height: 400px;
+    border: #ff6600 solid 5px;
+    border-radius: 10px;
+}
+.szereplok {
+    margin-top: 30px;
+}
+.cast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.character-block {
+    text-align: center;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff3e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.character-block img {
+    width: auto;
+    border: 2px solid #ffcc00;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.character-block h3 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #ff6600;
+}
+.character-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
